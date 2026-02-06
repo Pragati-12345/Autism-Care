@@ -1,5 +1,6 @@
 🧠 AI-Enabled Predictive Autism Care Platform
 A Privacy-Preserving, Data-Driven Clinical Decision Support System (Hackathon MVP)
+
 🌍 Problem Statement
 
 Autism Spectrum Disorder (ASD) affects millions of children worldwide, yet early screening, consistent monitoring, and data-driven care planning remain fragmented, manual, and resource-intensive.
