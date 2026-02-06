@@ -44,29 +44,28 @@ It does NOT diagnose Autism Spectrum Disorder (ASD) and must not be used as a su
 
 Autism-Care/
 │
-├── data/                     # Raw and reference datasets
+├── data/                    
 │
-├── src/                      # Core application logic
-│
-├── synthetic_pipeline/       # End-to-end synthetic data generation system
+├── src/                   
+├── synthetic_pipeline/     
 │   ├── __init__.py
-│   ├── config.py             # Centralized configuration
-│   ├── dataset_loader.py     # Dataset loading utilities
-│   ├── preprocessing.py      # Cleaning & feature processing
-│   ├── generator_train.py    # Synthetic generator training
-│   ├── generator_sample.py   # Sample generation logic
-│   ├── privacy_filter.py     # Privacy preservation mechanisms
-│   ├── validation.py         # Quality & consistency checks
-│   ├── registry.py           # Pipeline registry
-│   └── pipeline_runner.py    # Pipeline orchestration
+│   ├── config.py            
+│   ├── dataset_loader.py    
+│   ├── preprocessing.py
+│   ├── generator_train.py    
+│   ├── generator_sample.py 
+│   ├── privacy_filter.py     
+│   ├── validation.py
+│   ├── registry.py
+│   └── pipeline_runner.py
 │
-├── synthetic_output/         # Generated synthetic datasets
+├── synthetic_output/       
 │
-├── autism_screening.csv      # Example autism screening dataset
-├── app.py                    # Main application entry point
-├── requirements.txt          # Project dependencies
-├── .env                      # Local environment variables
-├── .env.example              # Environment variable template
+├── autism_screening.csv
+├── app.py
+├── requirements.txt          
+├── .env                      
+├── .env.example              
 ├── .gitignore
 └── README.md
 
